@@ -1,0 +1,4 @@
+- source: project
+  posit-connect-cloud:
+    - id: 019eae25-fc76-c21e-ff45-eec7aab7e77d
+      url: https://connect.posit.cloud/keirarish/content/019eae25-fc76-c21e-ff45-eec7aab7e77d

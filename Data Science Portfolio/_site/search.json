@@ -1,16 +1,86 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Keira’s Data Science Portfolio",
-    "section": "",
-    "text": "This is a quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I am a data science professional focused on designing thoughtful analytical solutions, building scalable workflows, and turning complex information into business-ready stories. My approach is precise, visually polished, and aligned with the requirements of modern teams."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "I am a data science professional focused on designing thoughtful analytical solutions, building scalable workflows, and turning complex information into business-ready stories. My approach is precise, visually polished, and aligned with the requirements of modern teams."
+  },
+  {
+    "objectID": "about.html#my-focus-areas",
+    "href": "about.html#my-focus-areas",
+    "title": "About",
+    "section": "My focus areas",
+    "text": "My focus areas\n\nData engineering and pipeline automation\nPredictive modeling and forecasting\nInteractive dashboards and visualization\nStatistical analysis and experimental design"
+  },
+  {
+    "objectID": "about.html#why-this-portfolio",
+    "href": "about.html#why-this-portfolio",
+    "title": "About",
+    "section": "Why this portfolio",
+    "text": "Why this portfolio\nThis website is designed to present my work with a clean, high-end feel. The white and soft pink palette keeps the layout professional while supporting a calm, approachable aesthetic."
+  },
+  {
+    "objectID": "about.html#lets-connect",
+    "href": "about.html#lets-connect",
+    "title": "About",
+    "section": "Let’s connect",
+    "text": "Let’s connect\nVisit my GitHub to explore repositories, or reach out directly if you would like to discuss analytics, machine learning, or data-driven strategy for your next opportunity."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Customer segmentation and clustering for retention strategy\nForecasting and business performance dashboards\nReporting automation and analytics workflow design"
+  },
+  {
+    "objectID": "projects.html#selected-projects",
+    "href": "projects.html#selected-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Customer segmentation and clustering for retention strategy\nForecasting and business performance dashboards\nReporting automation and analytics workflow design"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nData science that delivers clarity, confidence, and business impact.\n",
+    "section": "",
+    "text": "I build polished analytics solutions and machine learning workflows that help teams make better decisions faster. My work blends data engineering, model development, and storytelling so every insight is easy to act on.\n\n\nAbout Me View GitHub"
+  },
+  {
+    "objectID": "index.html#what-i-bring-to-the-table",
+    "href": "index.html#what-i-bring-to-the-table",
+    "title": "\nData science that delivers clarity, confidence, and business impact.\n",
+    "section": "What I bring to the table",
+    "text": "What I bring to the table\n\nClear data strategy from raw sources to polished reporting.\nStatistical and machine learning solutions built for real outcomes.\nCompelling dashboards, visual narratives, and stakeholder-ready insights."
+  },
+  {
+    "objectID": "index.html#featured-capabilities",
+    "href": "index.html#featured-capabilities",
+    "title": "\nData science that delivers clarity, confidence, and business impact.\n",
+    "section": "Featured capabilities",
+    "text": "Featured capabilities\n\n\nAnalytics & storytelling\nTurn data into clear narratives with dashboards, summaries, and decision-ready recommendations.\n\n\nPredictive modeling\nBuild regression, classification, and forecasting solutions that support growth and operational planning.\n\n\nEnd-to-end delivery\nDesign ETL, data pipelines, and repeatable workflows that keep analytics reliable and easy to maintain."
+  },
+  {
+    "objectID": "index.html#selected-highlights",
+    "href": "index.html#selected-highlights",
+    "title": "\nData science that delivers clarity, confidence, and business impact.\n",
+    "section": "Selected highlights",
+    "text": "Selected highlights\n\n\nCustomer insights and segmentation\nSegment buyers and recommend actions with clustering and profile analysis for stronger retention and acquisition.\n\n\nForecasting and performance tracking\nDeliver forecasting models and executive dashboards that simplify planning and highlight key trends.\n\n\nReporting automation\nCreate automated delivery pipelines that keep teams aligned with the latest metrics and insights."
+  },
+  {
+    "objectID": "index.html#ready-to-work-together",
+    "href": "index.html#ready-to-work-together",
+    "title": "\nData science that delivers clarity, confidence, and business impact.\n",
+    "section": "Ready to work together?",
+    "text": "Ready to work together?\nIf you’re hiring for analytics, machine learning, or data strategy, I’d love to connect. A modern portfolio should feel clean, confident, and easy to scan—and that’s exactly the experience I want to create for your next role."
   }
 ]

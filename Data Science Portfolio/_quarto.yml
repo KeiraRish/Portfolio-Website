@@ -2,24 +2,28 @@ project:
   type: website
 
 website:
-  title: "Data Science Portfolio"
+  title: "Keira Rish | Portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
     right:
       - href: https://github.com/KeiraRish?tab=repositories
         text: "<i class='bi bi-github'></i>"
         target: _blank
+  search: false
 
 format:
   html:
     theme:
-      - cosmo
+      - flatly
       - brand
     css: styles.css
-    toc: true
+    toc: false
 
 
 

@@ -2,4 +2,21 @@
 title: "About"
 ---
 
-About this site
+## About Me
+
+I am a data science professional focused on designing thoughtful analytical solutions, building scalable workflows, and turning complex information into business-ready stories. My approach is precise, visually polished, and aligned with the requirements of modern teams.
+
+## My focus areas
+
+- Data engineering and pipeline automation
+- Predictive modeling and forecasting
+- Interactive dashboards and visualization
+- Statistical analysis and experimental design
+
+## Why this portfolio
+
+This website is designed to present my work with a clean, high-end feel. The white and soft pink palette keeps the layout professional while supporting a calm, approachable aesthetic.
+
+## Let's connect
+
+Visit my GitHub to explore repositories, or reach out directly if you would like to discuss analytics, machine learning, or data-driven strategy for your next opportunity.

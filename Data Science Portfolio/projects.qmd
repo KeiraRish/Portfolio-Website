@@ -1,0 +1,9 @@
+---
+title: "Projects"
+---
+
+## Selected projects
+
+- Customer segmentation and clustering for retention strategy
+- Forecasting and business performance dashboards
+- Reporting automation and analytics workflow design

@@ -1,9 +1,71 @@
 ---
-title: "Keira's Data Science Portfolio"
 ---
 
-![](Profile_Photo.jpg){ width=250px }
+<div class="hero">
+<div class="hero-content">
 
-This is a quarto website.
+<img src="Profile_Photo.jpg" alt="Keira Rish" class="profile-image">
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<h1>Data science that delivers clarity, confidence, and business impact.</h1>
+
+<p class="hero-copy">I build polished analytics solutions and machine learning workflows that help teams make better decisions faster. My work blends data engineering, model development, and storytelling so every insight is easy to act on.</p>
+
+<div class="hero-actions">
+  <a class="btn btn-primary" href="about.qmd">About Me</a>
+  <a class="btn btn-outline-primary" href="https://github.com/KeiraRish?tab=repositories" target="_blank">View GitHub</a>
+</div>
+
+</div>
+</div>
+
+## What I bring to the table
+
+- Clear data strategy from raw sources to polished reporting.
+- Statistical and machine learning solutions built for real outcomes.
+- Compelling dashboards, visual narratives, and stakeholder-ready insights.
+
+## Featured capabilities
+
+<div class="feature-grid">
+
+<div class="feature-card">
+### Analytics & storytelling
+Turn data into clear narratives with dashboards, summaries, and decision-ready recommendations.
+</div>
+
+<div class="feature-card">
+### Predictive modeling
+Build regression, classification, and forecasting solutions that support growth and operational planning.
+</div>
+
+<div class="feature-card">
+### End-to-end delivery
+Design ETL, data pipelines, and repeatable workflows that keep analytics reliable and easy to maintain.
+</div>
+
+</div>
+
+## Selected highlights
+
+<div class="projects-grid">
+
+<div class="project-card">
+### Customer insights and segmentation
+Segment buyers and recommend actions with clustering and profile analysis for stronger retention and acquisition.
+</div>
+
+<div class="project-card">
+### Forecasting and performance tracking
+Deliver forecasting models and executive dashboards that simplify planning and highlight key trends.
+</div>
+
+<div class="project-card">
+### Reporting automation
+Create automated delivery pipelines that keep teams aligned with the latest metrics and insights.
+</div>
+
+</div>
+
+## Ready to work together?
+
+If you're hiring for analytics, machine learning, or data strategy, I'd love to connect. A modern portfolio should feel clean, confident, and easy to scan—and that's exactly the experience I want to create for your next role.

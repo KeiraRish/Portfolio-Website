@@ -6,9 +6,9 @@
 
 <img src="Profile_Photo.jpg" alt="Keira Rish" class="profile-image">
 
-<h1>Data science that delivers clarity, confidence, and business impact.</h1>
+<h1>Data science that turns complex data into clear, actionable insights.</h1>
 
-<p class="hero-copy">I build polished analytics solutions and machine learning workflows that help teams make better decisions faster. My work blends data engineering, model development, and storytelling so every insight is easy to act on.</p>
+<p class="hero-copy">I’m a Computer Science student at the University of Nebraska–Lincoln working in data science, AI, and analytics. I build solutions that combine data engineering, visualization, and AI to help teams understand their data, evaluate intelligent systems, and make better decisions.</p>
 
 <div class="hero-actions">
   <a class="btn btn-primary" href="about.qmd">About Me</a>
@@ -20,9 +20,9 @@
 
 ## What I bring to the table
 
-- Clear data strategy from raw sources to polished reporting.
-- Statistical and machine learning solutions built for real outcomes.
-- Compelling dashboards, visual narratives, and stakeholder-ready insights.
+- Turning data into decisions — transforming raw data into organized, meaningful insights and polished reporting.
+- Building practical AI and data solutions — applying Python, SQL, analytics, and AI/LLM technologies to real-world problems.
+- Making complex work understandable — creating dashboards, visualizations, and presentations that communicate technical results clearly to stakeholders.
 
 ## Featured capabilities
 

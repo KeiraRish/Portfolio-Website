@@ -1,9 +1,61 @@
 ---
 title: "Projects"
+description: "Project interests and areas of work in data science, analytics, and AI."
 ---
 
-## Selected projects
+<div class="projects-intro">
+<p class="eyebrow">Projects <span>·</span> Featured work</p>
+<h2>Projects, experiments,<br>and ideas.</h2>
+<p>Explore a live interactive text adventure, along with project ideas I’m developing in data and analytics.</p>
+</div>
 
-- Customer segmentation and clustering for retention strategy
-- Forecasting and business performance dashboards
-- Reporting automation and analytics workflow design
+<div class="project-layout">
+<article class="project-feature">
+  <p class="eyebrow">01 <span> / </span> Interactive app</p>
+  <h3>Apartment Morning Adventure</h3>
+  <p>A cozy text adventure where you get ready, gather your things, and try to make it out the door with your happiness intact.</p>
+  <a class="btn btn-primary" href="https://textadventure-redesigned.streamlit.app/" target="_blank" rel="noopener noreferrer">Try the live app <span aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a>
+  <span class="project-type">Built with Streamlit</span>
+</article>
+
+<div class="project-stack">
+  <article class="project-compact">
+    <p class="eyebrow">02 <span> / </span> Analytics</p>
+    <h3>What can customer data reveal?</h3>
+    <p>Explore segmentation and customer profiles to better understand behavior and retention.</p>
+  </article>
+  <article class="project-compact">
+    <p class="eyebrow">03 <span> / </span> Forecasting</p>
+    <h3>How can trends support planning?</h3>
+    <p>Use forecasting and visualization to make patterns and assumptions easier to evaluate.</p>
+  </article>
+  <article class="project-compact">
+    <p class="eyebrow">04 <span> / </span> Data workflows</p>
+    <h3>How can reporting be more repeatable?</h3>
+    <p>Organize recurring data workflows to make reporting more consistent.</p>
+  </article>
+</div>
+</div>
+
+<section class="project-details" aria-labelledby="adventure-details">
+<div class="project-story">
+  <p class="eyebrow">Behind the project</p>
+  <h3 id="adventure-details">A favorite project, revisited</h3>
+  <p>This is a redesigned version of a project I made during my freshman year of college. It has always been one of my favorites, so I wanted to give it a fresh look and share it again. There’s no big real-world use case behind it—it’s simply a fun project I enjoyed making.</p>
+</div>
+<div class="gameplay-gallery" aria-label="Gameplay screenshots">
+  <figure class="gameplay-screenshot">
+    <div class="screenshot-placeholder">TODO: Add opening scene screenshot</div>
+    <figcaption>Opening scene</figcaption>
+  </figure>
+  <figure class="gameplay-screenshot">
+    <div class="screenshot-placeholder">TODO: Add gameplay choice screenshot</div>
+    <figcaption>A moment of choice</figcaption>
+  </figure>
+</div>
+</section>
+
+<div class="project-footer">
+<p>Have a look at the repositories currently available on GitHub.</p>
+<a class="text-link" href="https://github.com/KeiraRish?tab=repositories" target="_blank" rel="noopener noreferrer">Browse GitHub <span aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a>
+</div>

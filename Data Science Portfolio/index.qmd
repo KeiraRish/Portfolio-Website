@@ -4,68 +4,88 @@
 <div class="hero">
 <div class="hero-content">
 
-<img src="Profile_Photo.jpg" alt="Keira Rish" class="profile-image">
+<div class="hero-text">
+<p class="eyebrow">Keira Rish <span>·</span> Computer Science student</p>
 
-<h1>Data science that turns complex data into clear, actionable insights.</h1>
+<h1>Curious about data.<br>Focused on what it can do.</h1>
 
-<p class="hero-copy">I’m a Computer Science student at the University of Nebraska–Lincoln working in data science, AI, and analytics. I build solutions that combine data engineering, visualization, and AI to help teams understand their data, evaluate intelligent systems, and make better decisions.</p>
+<p class="hero-copy">I’m studying Computer Science at the University of Nebraska–Lincoln, with a focus on data science, AI, and analytics. I connect data workflows, analysis, and clear communication to make information more useful.</p>
 
 <div class="hero-actions">
-  <a class="btn btn-primary" href="about.qmd">About Me</a>
-  <a class="btn btn-outline-primary" href="https://github.com/KeiraRish?tab=repositories" target="_blank">View GitHub</a>
+  <a class="btn btn-primary" href="projects.qmd">Explore my work</a>
+  <a class="text-link" href="about.qmd">A little about me <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+
+<div class="hero-portrait">
+  <img src="Profile_Photo.jpg" alt="Portrait of Keira Rish" class="profile-image">
+  <p>University of Nebraska–Lincoln <span>·</span> Computer Science</p>
 </div>
 
 </div>
 </div>
 
-## What I bring to the table
-
-- Turning data into decisions — transforming raw data into organized, meaningful insights and polished reporting.
-- Building practical AI and data solutions — applying Python, SQL, analytics, and AI/LLM technologies to real-world problems.
-- Making complex work understandable — creating dashboards, visualizations, and presentations that communicate technical results clearly to stakeholders.
-
-## Featured capabilities
-
-<div class="feature-grid">
-
-<div class="feature-card">
-### Analytics & storytelling
-Turn data into clear narratives with dashboards, summaries, and decision-ready recommendations.
+<div class="capability-section">
+<div class="section-heading">
+  <p class="eyebrow">How I think about data</p>
+  <h2>From raw information<br>to useful outcomes.</h2>
+  <p>Good analysis is more than a model or a chart. It starts with the right question and ends with a result people can understand.</p>
 </div>
 
-<div class="feature-card">
-### Predictive modeling
-Build regression, classification, and forecasting solutions that support growth and operational planning.
+<div class="capability-list">
+<article class="capability-item">
+<p class="item-number">01</p>
+<div>
+<h3>Find the signal</h3>
+<p>Use analysis and visualization to uncover patterns and explain what they mean.</p>
+</div>
+</article>
+
+<article class="capability-item">
+<p class="item-number">02</p>
+<div>
+<h3>Explore what’s next</h3>
+<p>Apply predictive methods—from regression and classification to clustering and forecasting—to practical questions.</p>
+</div>
+</article>
+
+<article class="capability-item">
+<p class="item-number">03</p>
+<div>
+<h3>Make the work repeatable</h3>
+<p>Build organized data and reporting workflows that are easier to understand and maintain.</p>
+</div>
+</article>
+</div>
 </div>
 
-<div class="feature-card">
-### End-to-end delivery
-Design ETL, data pipelines, and repeatable workflows that keep analytics reliable and easy to maintain.
+<div class="tool-section">
+<div class="tool-intro">
+  <p class="eyebrow">Current toolkit</p>
+  <h2>Tools & topics</h2>
+  <p class="tool-lede">My focus is evaluating AI chatbots with LLM-as-a-Judge methods—analyzing outputs and measuring opportunities to improve.</p>
+</div>
+<ul class="skill-list">
+  <li class="skill-featured">LLM-as-a-Judge evaluation</li>
+  <li>AI assessment & evaluation</li>
+  <li>LLM applications</li>
+  <li>Training data curation</li>
+  <li>Python</li>
+  <li>SQL</li>
+  <li>Power BI</li>
+  <li>Snowflake</li>
+  <li>Data analysis</li>
+</ul>
 </div>
 
+<div class="contact-panel">
+<div>
+<p class="eyebrow">Keep exploring</p>
+<h2>Good work starts with a good question.</h2>
+<p>Take a look at the areas I’m exploring, or browse my repositories on GitHub.</p>
 </div>
-
-## Selected highlights
-
-<div class="projects-grid">
-
-<div class="project-card">
-### Customer insights and segmentation
-Segment buyers and recommend actions with clustering and profile analysis for stronger retention and acquisition.
+<div class="hero-actions">
+<a class="btn btn-light" href="projects.qmd">View projects <span aria-hidden="true">↗</span></a>
+<a class="contact-link" href="https://github.com/KeiraRish?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="visually-hidden">(opens in a new tab)</span></a>
 </div>
-
-<div class="project-card">
-### Forecasting and performance tracking
-Deliver forecasting models and executive dashboards that simplify planning and highlight key trends.
 </div>
-
-<div class="project-card">
-### Reporting automation
-Create automated delivery pipelines that keep teams aligned with the latest metrics and insights.
-</div>
-
-</div>
-
-## Ready to work together?
-
-If you're hiring for analytics, machine learning, or data strategy, I'd love to connect. A modern portfolio should feel clean, confident, and easy to scan—and that's exactly the experience I want to create for your next role.

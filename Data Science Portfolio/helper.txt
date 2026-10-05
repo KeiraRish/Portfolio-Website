@@ -3,7 +3,7 @@ quarto publish posit-connect-cloud
 
 
 cd "/Users/keirarish/Portfolio-Website/Data Science Portfolio"
+quarto render
 open _site/index.html
-
 
 

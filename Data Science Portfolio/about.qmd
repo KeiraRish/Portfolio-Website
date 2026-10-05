@@ -1,22 +1,49 @@
 ---
 title: "About"
+description: "About Keira Rish, a Computer Science student at the University of Nebraska–Lincoln exploring data science, AI, and analytics."
 ---
 
-## About Me
+<div class="about-intro">
+<p class="eyebrow">A little about me</p>
+<h2>Building the skills to make data make sense.</h2>
+<div class="about-copy">
+<p class="about-lede">I’m a Computer Science student at the University of Nebraska–Lincoln, interested in the space where data science, AI, and communication meet.</p>
+<p>I enjoy organizing information, exploring patterns, and turning findings into something clear and useful. I’m continuing to grow my technical toolkit while building a thoughtful, practical approach to analytical work.</p>
+</div>
+</div>
 
-I am a data science professional focused on designing thoughtful analytical solutions, building scalable workflows, and turning complex information into business-ready stories. My approach is precise, visually polished, and aligned with the requirements of modern teams.
+<div class="about-focus">
+<div class="section-heading">
+  <p class="eyebrow">Areas of focus</p>
+  <h2>Three parts of the process.</h2>
+</div>
+<div class="focus-list">
+<article class="focus-item">
+  <p class="item-number">01</p>
+  <h3>Data foundations</h3>
+  <p>Organizing data and developing repeatable workflows for analysis and reporting.</p>
+</article>
+<article class="focus-item">
+  <p class="item-number">02</p>
+  <h3>Analytical methods</h3>
+  <p>Applying predictive modeling, forecasting, and statistical analysis to practical questions.</p>
+</article>
+<article class="focus-item">
+  <p class="item-number">03</p>
+  <h3>Clear communication</h3>
+  <p>Presenting technical results through visualizations and concise explanations.</p>
+</article>
+</div>
+</div>
 
-## My focus areas
-
-- Data engineering and pipeline automation
-- Predictive modeling and forecasting
-- Interactive dashboards and visualization
-- Statistical analysis and experimental design
-
-## Why this portfolio
-
-This website is designed to present my work with a clean, high-end feel. The white and soft pink palette keeps the layout professional while supporting a calm, approachable aesthetic.
-
-## Let's connect
-
-Visit my GitHub to explore repositories, or reach out directly if you would like to discuss analytics, machine learning, or data-driven strategy for your next opportunity.
+<div class="approach-section">
+<div class="section-heading">
+  <p class="eyebrow">My approach</p>
+  <h2>Thoughtful at every step.</h2>
+</div>
+<ol class="approach-list">
+  <li><span>Start with the question</span><p>Understand what the analysis should help someone learn or decide.</p></li>
+  <li><span>Keep the process clear</span><p>Make data preparation and analytical steps organized and repeatable.</p></li>
+  <li><span>Explain the result</span><p>Share limitations and findings in language that makes sense to the audience.</p></li>
+</ol>
+</div>

@@ -13,7 +13,7 @@ website:
         text: Projects
     right:
       - href: https://github.com/KeiraRish?tab=repositories
-        text: "<i class='bi bi-github'></i>"
+        text: "<i class='bi bi-github' aria-hidden='true'></i> GitHub"
         target: _blank
   search: false
 
@@ -24,6 +24,5 @@ format:
       - brand
     css: styles.css
     toc: false
-
 
 

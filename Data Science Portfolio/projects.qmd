@@ -14,18 +14,15 @@ title: "Projects"
 <div class="gameplay-gallery" aria-label="Gameplay screenshots">
 
 <figure class="gameplay-screenshot">
-<div class="screenshot-placeholder">TODO: Add opening scene screenshot</div>
-<figcaption>Opening scene</figcaption>
+<img src="Apartment_Morning_Adventure_Title.png" alt="Apartment Morning Adventure title screen with Start my morning and Leaderboard options">
 </figure>
 
 <figure class="gameplay-screenshot">
-<div class="screenshot-placeholder">TODO: Add gameplay choice screenshot</div>
-<figcaption>A moment of choice</figcaption>
+<img src="Apartment_Morning_Adventure_Completed.png" alt="Completed morning screen showing the player made it out the door with a happiness score of 85">
 </figure>
 
 <figure class="gameplay-screenshot">
-<div class="screenshot-placeholder">TODO: Add another gameplay screenshot</div>
-<figcaption>Another moment from the game</figcaption>
+<img src="Apartment_Morning_Adventure_Leaderboard.png" alt="Apartment Morning Adventure leaderboard with no scores yet">
 </figure>
 
 </div>

@@ -135,46 +135,88 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="about-intro">
+<section class="about-intro" aria-labelledby="about-me-title">
 <p class="eyebrow">
-A little about me
+About me
 </p>
-<h2>
-Building the skills to make data make sense.
+<h2 id="about-me-title">
+A Little About Me
 </h2>
 <div class="about-copy">
 <p class="about-lede">
-I’m a Computer Science student at the University of Nebraska–Lincoln, interested in the space where data science, AI, and communication meet.
-</p>
-<p>
-I enjoy organizing information, exploring patterns, and turning findings into something clear and useful. I’m continuing to grow my technical toolkit while building a thoughtful, practical approach to analytical work.
+TODO: Add a short professional introduction.
 </p>
 </div>
+</section>
+<section class="about-topic-section about-interest-banner" aria-labelledby="areas-of-interest">
+<div class="section-heading">
+<p class="eyebrow">
+What I’m curious about
+</p>
+<h2 id="areas-of-interest">
+Areas of Interest
+</h2>
 </div>
+<ul class="skill-list about-interest-list">
+<li>
+💻 Data Science
+</li>
+<li>
+🤖 AI &amp; Machine Learning
+</li>
+<li>
+📊 Data Visualization
+</li>
+<li>
+🧠 LLMs
+</li>
+<li>
+💻 Software Development
+</li>
+</ul>
+</section>
+<section class="about-topic-section" aria-labelledby="academic-journey">
+<div class="section-heading">
+<p class="eyebrow">
+Where I’m headed
+</p>
+<h2 id="academic-journey">
+My Academic &amp; Career Journey
+</h2>
+</div>
+<p class="about-topic-copy">
+I’m studying Computer Science at the University of Nebraska–Lincoln and building skills in data science, AI, and communication. I’m working toward applying those skills in analytical work that makes complex information clear and useful.
+</p>
+</section>
 <section class="sisterhood-section" aria-labelledby="gamma-phi-beta">
 <div class="sisterhood-content">
 <div class="sisterhood-heading">
 <p class="eyebrow">
-Outside the classroom
+Leadership &amp; Community
 </p>
 <h2 id="gamma-phi-beta">
 Gamma Phi Beta
 </h2>
-<p>
-My time in Gamma Phi Beta is an important part of my college experience. I’m looking forward to sharing memories from our Girls on the Run philanthropy and Big/Little traditions.
-</p>
 </div>
 <div class="sisterhood-groups">
-<section class="sisterhood-group" aria-labelledby="girls-on-the-run">
+<section class="sisterhood-group philanthropy-group" aria-labelledby="girls-on-the-run">
 <h3 id="girls-on-the-run">
-Girls on the Run
+Giving Back Through Philanthropy
 </h3>
+<div class="sisterhood-story">
 <p>
-Philanthropy
+One of my favorite parts of being a member of Gamma Phi was the opportunity to participate in our philanthropy and give back to the community. Gamma Phi’s philanthropy is Girls on the Run, an after-school program that helps young girls build confidence, develop healthy habits, and recognize their potential.
 </p>
-<p class="sisterhood-story">
-TODO: Add a personal paragraph about your Girls on the Run philanthropy experience.
+<p>
+Throughout the year, our chapter hosted a variety of fundraising events to support Girls on the Run. We sold ice cream, hosted pumpkin-carving events, held karaoke nights, and organized other activities that brought our community together. All of the funds raised through these events were donated to Girls on the Run.
 </p>
+<p>
+Members of our chapter also had the opportunity to serve as coaches for the girls in the program. While I was not able to be a coach myself, I always looked for opportunities to help with activities, support practices, and participate in the girls’ practice 5K.
+</p>
+<p>
+Twice a year, Girls on the Run hosts a 5K for their program, and our entire chapter volunteers at the event. There are many ways to get involved, from checking participants in to helping the girls with their hair and accessories, or my personal favorite, being a cheerleader for the girls. We would spread out along different points of the 5K course and cheer on the girls as they ran by. It was so cute watching all their faces light up. I am incredibly grateful for the opportunities Gamma Phi has given me to be involved in Girls on the Run.
+</p>
+</div>
 <div class="sisterhood-gallery philanthropy-gallery" aria-label="Girls on the Run philanthropy photos">
 <figure class="sisterhood-photo figure">
 <div class="sisterhood-photo-placeholder">
@@ -196,21 +238,26 @@ Girls on the Run
 </section>
 <section class="sisterhood-group" aria-labelledby="big-little">
 <h3 id="big-little">
-Big/Little
+Big / Little - Memories through the years
 </h3>
+<div class="sisterhood-story">
 <p>
-One memory from each year
+Another fun part of being in a sorority is getting to participate in Big/Little. As a sophomore, you get to be paired with a new freshman member as their “Big.” The week leading up to the Big/Little reveal is filled with surprises, gifts, and Gamma Phi merchandise as you get to learn more about each other and make them feel welcomed and excited to be part of the chapter.
 </p>
-<p class="sisterhood-story">
-TODO: Add a personal paragraph about what Big/Little means to you.
+<p>
+Being a Big means you become a mentor and someone your Little can turn to as they adjust to college life. Bigs help their Littles become familiar with campus and learn Gamma Phi traditions and expectations. I really enjoyed being someone my Little could rely on and making her transition into college a little easier.
 </p>
+<p>
+One of my favorite things to do with my Little is go on coffee and study dates. Whether we are catching up over coffee or working on assignments together, I am so grateful to have built a friendship that means so much to me.
+</p>
+</div>
 <div class="sisterhood-gallery big-little-gallery" aria-label="Big/Little photos by year">
 <figure class="sisterhood-photo figure">
 <div class="sisterhood-photo-placeholder">
 TODO: Add Big/Little photo
 </div>
 <figcaption>
-Year 1
+Freshman
 </figcaption>
 </figure>
 <figure class="sisterhood-photo figure">
@@ -218,7 +265,7 @@ Year 1
 TODO: Add Big/Little photo
 </div>
 <figcaption>
-Year 2
+Sophomore
 </figcaption>
 </figure>
 <figure class="sisterhood-photo figure">
@@ -226,7 +273,7 @@ Year 2
 TODO: Add Big/Little photo
 </div>
 <figcaption>
-Year 3
+Junior
 </figcaption>
 </figure>
 <figure class="sisterhood-photo figure">
@@ -234,7 +281,7 @@ Year 3
 TODO: Add Big/Little photo
 </div>
 <figcaption>
-Year 4
+Senior
 </figcaption>
 </figure>
 </div>
@@ -242,81 +289,19 @@ Year 4
 </div>
 </div>
 </section>
-<div class="about-focus">
+<section class="about-topic-section beyond-classroom" aria-labelledby="beyond-classroom">
 <div class="section-heading">
 <p class="eyebrow">
-Areas of focus
+A little more personally
 </p>
-<h2>
-Three parts of the process.
+<h2 id="beyond-classroom">
+Beyond the Classroom
 </h2>
 </div>
-<div class="focus-list">
-<article class="focus-item">
-<p class="item-number">
-01
+<p class="about-topic-copy">
+TODO: Add a few hobbies or personal interests.
 </p>
-<h3>
-Data foundations
-</h3>
-<p>
-Organizing data and developing repeatable workflows for analysis and reporting.
-</p>
-</article>
-<article class="focus-item">
-<p class="item-number">
-02
-</p>
-<h3>
-Analytical methods
-</h3>
-<p>
-Applying predictive modeling, forecasting, and statistical analysis to practical questions.
-</p>
-</article>
-<article class="focus-item">
-<p class="item-number">
-03
-</p>
-<h3>
-Clear communication
-</h3>
-<p>
-Presenting technical results through visualizations and concise explanations.
-</p>
-</article>
-</div>
-</div>
-<div class="approach-section">
-<div class="section-heading">
-<p class="eyebrow">
-My approach
-</p>
-<h2>
-Thoughtful at every step.
-</h2>
-</div>
-<ol class="approach-list">
-<li>
-<span>Start with the question</span>
-<p>
-Understand what the analysis should help someone learn or decide.
-</p>
-</li>
-<li>
-<span>Keep the process clear</span>
-<p>
-Make data preparation and analytical steps organized and repeatable.
-</p>
-</li>
-<li>
-<span>Explain the result</span>
-<p>
-Share limitations and findings in language that makes sense to the audience.
-</p>
-</li>
-</ol>
-</div>
+</section>
 
 
 

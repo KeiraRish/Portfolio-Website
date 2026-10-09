@@ -1,6 +1,6 @@
 :root {
   color-scheme: light;
-  --page-bg: #fcf8f7;
+  --page-bg: #ffffff;
   --surface: #ffffff;
   --surface-muted: #faf1f2;
   --text: #18252d;
@@ -319,15 +319,20 @@ p {
   margin: 0;
 }
 
+.tool-section,
+.about-interest-banner,
+.sisterhood-section {
+  width: 100vw;
+  margin: 0 0 clamp(5rem, 10vw, 8rem) calc(50% - 50vw);
+  padding: clamp(2.5rem, 6vw, 5.5rem) max(1.5rem, calc((100vw - 1120px) / 2 + 1.5rem));
+  background: var(--surface-muted);
+}
+
 .tool-section {
   display: grid;
   grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.2fr);
   align-items: center;
   gap: clamp(2rem, 7vw, 6rem);
-  width: 100vw;
-  margin: 0 0 clamp(5rem, 10vw, 8rem) calc(50% - 50vw);
-  padding: clamp(2.5rem, 6vw, 5.5rem) max(1.5rem, calc((100vw - 1120px) / 2 + 1.5rem));
-  background: var(--surface-muted);
 }
 
 .tool-intro h2 {
@@ -415,6 +420,37 @@ p {
   margin: 0 0 clamp(5rem, 10vw, 8rem);
 }
 
+.about-topic-section {
+  display: grid;
+  grid-template-columns: minmax(230px, 0.8fr) minmax(0, 1.2fr);
+  align-items: start;
+  gap: clamp(2.5rem, 8vw, 8rem);
+  margin: 0 0 clamp(5rem, 10vw, 8rem);
+}
+
+.about-topic-section.about-interest-banner {
+  margin-left: calc(50% - 50vw);
+}
+
+.about-topic-section .section-heading h2 {
+  max-width: 16ch;
+}
+
+.about-topic-copy {
+  max-width: 65ch;
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.about-interest-list {
+  align-self: center;
+}
+
+.about-interest-banner {
+  align-items: center;
+}
+
 .about-intro > .eyebrow {
   grid-column: 1 / -1;
 }
@@ -439,10 +475,8 @@ p {
 }
 
 .sisterhood-section {
-  width: 100vw;
-  margin: 0 0 clamp(5rem, 10vw, 8rem) calc(50% - 50vw);
-  padding: clamp(2.5rem, 6vw, 5.5rem) max(1.5rem, calc((100vw - 1120px) / 2 + 1.5rem));
-  background: var(--surface-muted);
+  border: 0;
+  border-radius: 0;
 }
 
 .sisterhood-content {
@@ -477,16 +511,6 @@ p {
   font-weight: 750;
 }
 
-.sisterhood-group > p:not(.sisterhood-story) {
-  grid-column: 1;
-  margin: 0 0 1.25rem;
-  color: var(--accent);
-  font-size: 0.8rem;
-  font-weight: 750;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .sisterhood-story {
   grid-column: 1;
   max-width: 75ch;
@@ -500,12 +524,22 @@ p {
   column-gap: clamp(2rem, 5vw, 4rem);
 }
 
+.philanthropy-group {
+  grid-template-columns: minmax(0, 1.2fr) minmax(180px, 0.8fr);
+}
+
 .sisterhood-gallery {
   grid-column: 2;
-  grid-row: 1 / span 3;
+  grid-row: 1 / span 2;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.philanthropy-gallery {
+  grid-row: 2;
+  grid-template-columns: 1fr;
+  align-self: center;
 }
 
 .sisterhood-photo {
@@ -625,9 +659,9 @@ p {
 
 .project-feature {
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
   align-items: center;
-  gap: clamp(2rem, 5vw, 4rem);
+  gap: clamp(1.5rem, 3vw, 3rem);
   min-height: 390px;
   border-radius: 0;
   background:
@@ -720,10 +754,18 @@ p {
   margin: 0;
 }
 
+.gameplay-screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+}
+
 .gameplay-screenshot:nth-child(3) {
   grid-column: 1 / -1;
   justify-self: center;
-  width: calc(50% - 0.5rem);
+  width: calc(65% - 0.5rem);
 }
 
 .screenshot-placeholder {
@@ -793,6 +835,7 @@ p {
   .capability-section,
   .about-focus,
   .approach-section,
+  .about-topic-section,
   .tool-section {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -803,7 +846,18 @@ p {
   }
 
   .project-feature {
+    grid-row: 2;
     grid-template-columns: 1fr;
+    align-self: center;
+  }
+
+  .philanthropy-group {
+    grid-template-columns: 1fr;
+  }
+
+  .philanthropy-gallery {
+    grid-column: 1;
+    grid-row: auto;
   }
 }
 
@@ -853,12 +907,15 @@ p {
 
   .capability-section,
   .about-focus,
-  .approach-section {
+  .approach-section,
+  .about-topic-section {
     gap: 1.5rem;
     margin-bottom: 4.5rem;
   }
 
-  .tool-section {
+  .tool-section,
+  .about-interest-banner,
+  .sisterhood-section {
     padding: 2rem 1rem;
   }
 

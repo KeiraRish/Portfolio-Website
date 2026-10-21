@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Keira Rish | Portfolio"
+  site-url: "https://keirarish.github.io/Portfolio-Website/"
   navbar:
     left:
       - href: index.qmd
@@ -25,4 +26,3 @@ format:
     css: styles.css
     toc: false
     anchor-sections: false
-

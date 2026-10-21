@@ -26,9 +26,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render portfolio
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: Data Science Portfolio
+        run: quarto render "Data Science Portfolio"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3

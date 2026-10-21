@@ -49,17 +49,6 @@ title: ""
 <p>Members of our chapter also had the opportunity to serve as coaches for the girls in the program. While I was not able to be a coach myself, I always looked for opportunities to help with activities, support practices, and participate in the girls’ practice 5K.</p>
 <p>Twice a year, Girls on the Run hosts a 5K for their program, and our entire chapter volunteers at the event. There are many ways to get involved, from checking participants in to helping the girls with their hair and accessories, or my personal favorite, being a cheerleader for the girls. We would spread out along different points of the 5K course and cheer on the girls as they ran by. It was so cute watching all their faces light up. I am incredibly grateful for the opportunities Gamma Phi has given me to be involved in Girls on the Run.</p>
 </div>
-<div class="sisterhood-gallery philanthropy-gallery" aria-label="Girls on the Run philanthropy photos">
-
-<figure class="sisterhood-photo">
-<img src="girls-on-the-run-fundraiser.jpeg" alt="Gamma Phi Beta fundraiser poster for Girls on the Run">
-</figure>
-
-<figure class="sisterhood-photo girls-run-logo-photo">
-<img src="girls-on-the-run-logo.png" alt="Girls on the Run logo">
-</figure>
-
-</div>
 </section>
 
 <section class="sisterhood-group big-little-group" aria-labelledby="big-little">

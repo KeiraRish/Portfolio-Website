@@ -9,7 +9,7 @@
 
 <h1>Curiosity in research.<br>Precision in code.</h1>
 
-<p class="hero-copy">I’m studying Computer Science at the University of Nebraska–Lincoln, with a focus on data science, AI, and analytics. I connect data workflows, analysis, and clear communication to make information more useful.</p>
+<p class="hero-copy">I'm a Computer Science student at the University of Nebraska–Lincoln with a minor in Mathematics and interests in artificial intelligence, large language models, and data science. I enjoy combining analytical thinking and creative problem-solving to explore new ideas.</p>
 
 <div class="hero-actions">
   <a class="btn btn-primary" href="projects.qmd">Explore my work</a>
@@ -26,33 +26,33 @@
 
 <div class="capability-section">
 <div class="section-heading">
-  <p class="eyebrow">How I think about data</p>
-  <h2>From raw information<br>to useful outcomes.</h2>
-  <p>Good analysis is more than a model or a chart. It starts with the right question and ends with a result people can understand.</p>
+  <p class="eyebrow">How I approach Data</p>
+  <h2>From information<br>to meaningful solutions.</h2>
+  <p>Good analysis goes beyond models and charts. It starts with asking the right questions and ends with insights people can understand.</p>
 </div>
 
 <div class="capability-list">
 <article class="capability-item">
 <p class="item-number">01</p>
 <div>
-<h3>Find the signal</h3>
-<p>Use analysis and visualization to uncover patterns and explain what they mean.</p>
+<h3>Understanding the problem</h3>
+<p>Asking questions, identifying patterns, and understanding what needs to be solved.</p>
 </div>
 </article>
 
 <article class="capability-item">
 <p class="item-number">02</p>
 <div>
-<h3>Explore what’s next</h3>
-<p>Apply predictive methods—from regression and classification to clustering and forecasting—to practical questions.</p>
+<h3>Researching and Exploring</h3>
+<p>Using analytical thinking, research, and experimentation to explore different approaches and identify effective solutions.</p>
 </div>
 </article>
 
 <article class="capability-item">
 <p class="item-number">03</p>
 <div>
-<h3>Make the work repeatable</h3>
-<p>Build organized data and reporting workflows that are easier to understand and maintain.</p>
+<h3>Building and Optimizing</h3>
+<p>Testing, refining, and evaluating results to identify opportunities for improvement and develop more effective solutions.</p>
 </div>
 </article>
 </div>
@@ -60,15 +60,15 @@
 
 <div class="tool-section">
 <div class="tool-intro">
-  <p class="eyebrow">Current toolkit</p>
+  <p class="eyebrow">Technical Interests</p>
   <h2>Tools & topics</h2>
-  <p class="tool-lede">My focus is evaluating AI chatbots with LLM-as-a-Judge methods—analyzing outputs and measuring opportunities to improve.</p>
+  <p class="tool-lede">My current focus is LLM-as-a-Judge evaluation, exploring how AI-generated responses can be assessed and improved.</p>
 </div>
 <ul class="skill-list">
   <li class="skill-featured">LLM-as-a-Judge evaluation</li>
   <li>AI assessment & evaluation</li>
   <li>LLM applications</li>
-  <li>Training data curation</li>
+  <li>Curating training data</li>
   <li>Python</li>
   <li>SQL</li>
   <li>Power BI</li>
@@ -80,7 +80,7 @@
 <div class="contact-panel">
 <div>
 <p class="eyebrow">Keep exploring</p>
-<h2>Good work starts with a good question.</h2>
+<h2>Turning questions into understanding.</h2>
 <p>Take a look at the areas I’m exploring, or browse my repositories on GitHub.</p>
 </div>
 <div class="hero-actions">

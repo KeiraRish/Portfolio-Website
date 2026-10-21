@@ -428,6 +428,10 @@ p {
   margin: 0 0 clamp(5rem, 10vw, 8rem);
 }
 
+.academic-journey-section {
+  align-items: center;
+}
+
 .about-topic-section.about-interest-banner {
   margin-left: calc(50% - 50vw);
 }
@@ -441,6 +445,24 @@ p {
   margin: 0;
   font-size: 1.08rem;
   line-height: 1.7;
+}
+
+.beyond-classroom .about-topic-copy {
+  grid-column: 1 / -1;
+  max-width: none;
+}
+
+.about-topic-section.beyond-classroom {
+  row-gap: 0.5rem;
+}
+
+.beyond-classroom .section-heading {
+  grid-column: 1 / -1;
+}
+
+.beyond-classroom .section-heading h2 {
+  max-width: none;
+  margin-bottom: 0.25rem;
 }
 
 .about-interest-list {
@@ -460,6 +482,8 @@ p {
 }
 
 .about-copy {
+  grid-column: 1 / -1;
+  max-width: none;
   padding-top: 0.5rem;
 }
 
@@ -528,6 +552,15 @@ p {
   grid-template-columns: minmax(0, 1.2fr) minmax(180px, 0.8fr);
 }
 
+.big-little-group {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+}
+
+.big-little-group > h3,
+.big-little-group .sisterhood-story {
+  grid-column: 2;
+}
+
 .sisterhood-gallery {
   grid-column: 2;
   grid-row: 1 / span 2;
@@ -537,9 +570,17 @@ p {
 }
 
 .philanthropy-gallery {
+  width: min(100%, 436px);
   grid-row: 2;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr) 140px;
+  align-items: center;
   align-self: center;
+  justify-self: center;
+  transform: translateY(-0.75rem);
+}
+
+.philanthropy-gallery .sisterhood-photo {
+  width: 100%;
 }
 
 .sisterhood-photo {
@@ -550,6 +591,39 @@ p {
   border-radius: var(--radius-control);
   background: var(--surface);
   box-shadow: 0 8px 22px rgba(35, 31, 34, 0.06);
+}
+
+.sisterhood-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-control) - 0.15rem);
+}
+
+.philanthropy-gallery .sisterhood-photo img {
+  width: 100%;
+  height: 290px;
+  object-fit: contain;
+}
+
+.philanthropy-gallery .girls-run-logo-photo img {
+  width: 120px;
+  max-width: 100%;
+  height: 120px;
+  aspect-ratio: 1;
+  border: 4px solid var(--surface);
+  border-radius: 50%;
+  object-fit: contain;
+  background: var(--surface);
+}
+
+.philanthropy-gallery .girls-run-logo-photo {
+  display: grid;
+  aspect-ratio: 1;
+  place-items: center;
+  padding: 0;
+  border-radius: 50%;
+  align-self: center;
 }
 
 .sisterhood-photo-placeholder {
@@ -576,6 +650,17 @@ p {
 .big-little-gallery .sisterhood-photo:nth-child(2),
 .big-little-gallery .sisterhood-photo:nth-child(4) {
   transform: translateY(1rem);
+}
+
+.big-little-gallery .sisterhood-photo {
+  width: 92%;
+  justify-self: center;
+}
+
+.big-little-gallery {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  align-self: center;
 }
 
 .focus-list {
@@ -731,7 +816,7 @@ p {
 }
 
 .project-story h3 {
-  max-width: 16ch;
+  max-width: none;
   margin: 0 0 0.8rem;
   font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 750;
@@ -739,7 +824,6 @@ p {
 }
 
 .project-story p:last-child {
-  max-width: 70ch;
   margin: 0;
 }
 
@@ -807,7 +891,7 @@ p {
 .project-footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 1rem;
   padding: 1.5rem 0;
   border-top: 1px solid var(--border);
@@ -856,6 +940,17 @@ p {
   }
 
   .philanthropy-gallery {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .big-little-group {
+    grid-template-columns: 1fr;
+  }
+
+  .big-little-group > h3,
+  .big-little-group .sisterhood-story,
+  .big-little-gallery {
     grid-column: 1;
     grid-row: auto;
   }

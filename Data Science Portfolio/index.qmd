@@ -7,7 +7,7 @@
 <div class="hero-text">
 <p class="eyebrow">Keira Rish <span>·</span> Computer Science student</p>
 
-<h1>Curious about data.<br>Focused on what it can do.</h1>
+<h1>Curiosity in research.<br>Precision in code.</h1>
 
 <p class="hero-copy">I’m studying Computer Science at the University of Nebraska–Lincoln, with a focus on data science, AI, and analytics. I connect data workflows, analysis, and clear communication to make information more useful.</p>
 
@@ -19,7 +19,6 @@
 
 <div class="hero-portrait">
   <img src="Profile_Photo.jpg" alt="Portrait of Keira Rish" class="profile-image">
-  <p>University of Nebraska–Lincoln <span>·</span> Computer Science</p>
 </div>
 
 </div>
